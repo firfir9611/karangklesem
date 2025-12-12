@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda</title>
+    <link rel="stylesheet" href="./css/indexstyle.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+<header class="bg-cyan-500 shadow-xl mb-8"> 
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <div class="text-white text-3xl font-extrabold tracking-wider drop-shadow-lg">
+            Peta Desa
+        </div>
+        <nav>
+            <div id="nav-btns-placeholder" class="flex space-x-3">
+                <a href="" class="text-gray-700 bg-white px-4 py-2 rounded-md font-medium hover:bg-gray-100 transition duration-300 shadow-md">Beranda</a>
+                <a href="" class="text-gray-700 bg-white px-4 py-2 rounded-md font-medium hover:bg-gray-100 transition duration-300 shadow-md">Peta Desa</a>
+                <a href="" class="text-gray-700 bg-white px-4 py-2 rounded-md font-medium hover:bg-gray-100 transition duration-300 shadow-md">Tentang Kami</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+        <div class="container">
+            <h2>Satu Peta untuk Data Spasial Terpadu</h2>
+            <p>Portal ini menyajikan peta interaktif dan data geospasial wilayah desa Karangklesem untuk perencanaan dan pengembangan wilayah.</p>
+            <a href="#" class="bg-lime-500 px-4 py-2 rounded-md text-2xl font-medium hover:bg-gray-100 transition duration-300 shadow-md">Jelajahi Peta</a>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+        <!-- Map Preview Section -->
+        
+
+        <!-- Features/Highlights -->
+        <section class="highlights">
+            <h3><i class="mb-4"></i> Preview Peta</h3>
+            <div class="mt-4">
+            <img src="images/mapthumbnail.png" alt="">
+            </div>
+        </section>
+
+        <section class="highlights">
+            <h3><i class="mb-4"></i> Fitur Unggulan</h3>
+            <div class="feature-cards">
+                <div class="card">
+                    <i class="fas fa-layer-group"></i>
+                    <h4>Layers Berlapis</h4>
+                    <p>Tampilkan lapisan peta seperti batas administrasi, jalan, dan penggunaan lahan.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-download"></i>
+                    <h4>Unduh Data</h4>
+                    <p>Data geospasial tersedia dalam format Shapefile, GeoJSON, atau KML.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-search"></i>
+                    <h4>Pencarian Lokasi</h4>
+                    <p>Cari lokasi berdasarkan nama desa, kecamatan, atau koordinat.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<footer class="bg-cyan-500 mt-12 py-4 shadow-inner">
+    <div class="container mx-auto px-6 text-center text-white text-sm">
+        &copy; 2025 Peta Desa Kecamatan. Fatih Ali Zacky.
+    </div>
+</footer>
+</body>
+</html>
